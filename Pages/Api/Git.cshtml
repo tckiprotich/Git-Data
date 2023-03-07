@@ -1,0 +1,22 @@
+@page
+@model Git_Data.Pages.Api.Git
+@{
+    ViewData["Title"] = "Git";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<div>
+    <h1>Enter a GitHub username or link</h1>
+
+    <form method="get">
+        <div class="form-group">
+            <label for="usernameOrLink">Username or Link:</label>
+            <input type="text" class="form-control" id="usernameOrLink" name="usernameOrLink" placeholder="Enter a GitHub username or link">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+<div>
+    
+</div>
